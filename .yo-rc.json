@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.7.1",
+    "libraryName": "filtro-usuarios",
+    "libraryId": "fbc9a4b7-da01-4281-97fb-c12fbf5d026f",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

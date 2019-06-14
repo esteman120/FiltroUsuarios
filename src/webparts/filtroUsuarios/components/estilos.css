@@ -1,0 +1,280 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+
+.caja {
+    width: 350;
+    height: 500px;
+    padding: 0px;
+}
+
+.iconoskype {
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 115px;
+}
+
+.verMas {
+    margin-top: -14px;
+    margin-left: 158px;
+}
+
+.body-box {
+    width: 350px;
+    height: 500px;
+    border: 0, 5px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 3px #c1bcbc;
+    margin-left: 10px;
+}
+
+.barraLateral {
+    width: 90px;
+    height: 100%;
+    background: #0A0A2A;
+    display: inline-block;
+    border: 0px;
+    border-radius: left 8px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.fotoUsuario {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    /* border: solid 6px #F7F7F9; */
+    display: inline-block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 40px;
+    /* background-image: url("foto.png"); */
+    box-shadow: 3px #c1bcbc;
+}
+
+.img-size {
+    height: 170px;
+    width: 170px;
+    border: 3px solid #f4f4f4;
+    border-radius: 160px;
+}
+
+.cuerpo {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    margin-top: 240px;
+    padding-left: 15px;
+    color: #0A0A2A;
+    text-align: left;
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 250%
+}
+
+.espacioTexto {
+    line-height: 0.9;
+}
+
+@media only screen and (max-width: 700px) {
+    .body-box {
+        background-color: lightblue;
+    }
+}
+
+img,
+video,
+object,
+embed {
+    .max-width: 100%;
+    /* Aquí el tamaño máximo de tus imágenes */
+    height: auto;
+    /* No es necesario, sólo para clarificar */
+}
+
+@media screen and (max-width:400px) {
+    .body-box {
+        float: left;
+        width: 10%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .barraLateral {
+        float: left;
+        width: 10%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .fotoUsuario {
+        float: left;
+        width: 10%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .cuerpo {
+        float: left;
+        width: 10%;
+    }
+}
+
+
+/* Viejo */
+
+.contact-card {
+    border: 1px solid #a1a1a1;
+    width: 144%;
+    /*display: inline-block;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 15px;*/
+    height: 100%;
+    border-radius: 5px;
+}
+
+.top_sec-v2 {
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.user_name {
+    color: #fff;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+.card_icon {
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+    position: relative;
+    left: 33.6%;
+}
+
+.card_icon li {
+    float: left;
+    padding: 6px;
+}
+
+.card_icon li a img {
+    margin-top: 1px;
+}
+
+.detail_sec {
+    padding: 10px 0px 10px;
+    clear: both;
+    background: #f4f4f4;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.user_img img {
+    /*padding: 5px;*/
+    border-radius: 50%;
+    /*width: 100px;
+    height: 100px;*/
+}
+
+.user_img_blank {
+    cursor: pointer;
+    background-size: cover;
+}
+
+.detail_sec p label {
+    font-weight: 600;
+}
+
+.detail_sec p {
+    margin: 5px 0px 5px 10px;
+    color: #6b6b6b;
+}
+
+.detail_sec span {
+    font-weight: 700;
+}
+
+.detail_sec a {
+    font-weight: 700;
+}
+
+.contact-card:hover {
+    border: 1px solid #0072c6;
+    box-shadow: 1px 1px 9px 0px #71bff9;
+}
+
+.myviewP .mCSB_container .one-contact-card {
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    min-height: inherit;
+    width: 23% !important;
+    -moz-box-shadow: 1px 3px 5px 1px #ddd;
+    -webkit-box-shadow: #ddd 1px 3px 5px 1px;
+    box-shadow: #ddd 1px 3px 5px 1px;
+    border: 1px solid #dddddd;
+    min-height: 147px;
+    margin: 17px 0% 10px 15px;
+    /* padding: 5px; */
+    border-radius: 5px;
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .myviewP .mCSB_container .one-contact-card {
+        width: 70% !important;
+    }
+    .card_icon {
+        left: 35.6%;
+    }
+}
+
+@media (min-width:993px) and (max-width:1199px) {
+    .myviewP .mCSB_container .one-contact-card {
+        width: 43% !important;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1365px) {
+    .myviewP .mCSB_container .one-contact-card {
+        width: 31% !important;
+    }
+}
+
+@media (min-width:320px) and (max-width:500px) {
+    .myviewP .mCSB_container .one-contact-card {
+        width: 70% !important;
+    }
+    .card_icon {
+        left: 35.6%;
+    }
+}
+
+@media (min-width:501px) and (max-width:767px) {
+    .myviewP .mCSB_container .one-contact-card {
+        width: 70% !important;
+    }
+    .card_icon {
+        left: 35.6%;
+    }
+}
+
+@media (max-width:767px) {
+    .myviewP .mCSB_container .one-contact-card {
+        width: 70% !important;
+    }
+    .card_icon {
+        left: 33.6%;
+    }
+}
+
+@media (min-width:1366px) and (max-width:1530px) {
+    .card_icon {
+        left: 44.6%;
+    }
+}

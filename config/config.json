@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "filtro-usuarios-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/filtroUsuarios/FiltroUsuariosWebPart.js",
+          "manifest": "./src/webparts/filtroUsuarios/FiltroUsuariosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FiltroUsuariosWebPartStrings": "lib/webparts/filtroUsuarios/loc/{locale}.js"
+  }
+}

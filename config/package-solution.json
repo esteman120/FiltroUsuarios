@@ -1,0 +1,12 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "filtro-usuarios",
+        "id": "fbc9a4b7-da01-4281-97fb-c12fbf5d026f",
+        "version": "1.0.0.7",
+        "includeClientSideAssets": true
+    },
+    "paths": {
+        "zippedPackage": "solution/filtro-usuarios.sppkg"
+    }
+}
