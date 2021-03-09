@@ -15,7 +15,7 @@ export class servicio {
     }
 
     public obtenerEmpleados(){
-        let respuesta = sp.web.lists.getByTitle("empleados").items.select("*, usuario/Title, usuario/EMail, Attachments, AttachmentFiles").expand("usuario, AttachmentFiles").getAll();
+        let respuesta = sp.web.lists.getByTitle("empleados").items.filter("Activo eq 1").select("*, usuario/Title, usuario/EMail, Attachments, AttachmentFiles").expand("usuario, AttachmentFiles").getAll();
         return respuesta;
     }
     
